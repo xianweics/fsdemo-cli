@@ -1,6 +1,6 @@
 {
-  "name": "cli-demo",
-  "version": "0.0.1",
+  "name": "fsdemo-cli",
+  "version": "0.0.2",
   "description": "This is cli demo",
   "main": "index.js",
   "scripts": {
@@ -12,20 +12,22 @@
     }
   },
   "bin": {
-    "demo-cli": "index.js"
+    "fsdemo-cli": "index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xianweics/react-cli-demo.git"
+    "url": "git+https://github.com/xianweics/fsdemo-cli.git"
   },
   "keywords": [],
   "author": "Xianwei Wu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xianweics/react-cli-demo/issues"
+    "url": "https://github.com/xianweics/fsdemo-cli/issues"
   },
-  "homepage": "https://github.com/xianweics/react-cli-demo#readme",
+  "homepage": "https://github.com/xianweics/fsdemo-cli#readme",
   "devDependencies": {
+  },
+  "dependencies": {
     "colors": "^1.4.0",
     "commander": "^4.1.0",
     "download-git-repo": "^3.0.2",
@@ -33,7 +35,5 @@
     "ora": "^4.0.3",
     "shelljs": "^0.8.3",
     "inquirer": "^7.0.3"
-  },
-  "dependencies": {
   }
 }

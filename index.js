@@ -9,17 +9,17 @@ const figlet = require('figlet');
 const shell = require('shelljs');
 const inquirer = require('inquirer');
 const download = require('download-git-repo');
-const commander = require('commander');
+// const commander = require('commander');
 
 // Output the project name
 const name = figlet.textSync(pg.name.toUpperCase());
 info(colors.green(name));
 
 // Setting commander
-commander
-  .version(pg.version)
-  .option('-i, --init', 'init project')
-  .parse(process.argv);
+// commander
+//   .version(pg.version)
+//   .option('-i, --init', 'init project')
+//   .parse(process.argv);
 
 inquirer.prompt([
   {
